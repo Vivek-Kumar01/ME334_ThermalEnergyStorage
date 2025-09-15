@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy import stats
 
 # --- user inputs ---
-csv_file = "readings.csv"   # your 15-row CSV
+csv_file = "readings.csv"   # 15-row CSV
 flow_L_per_min = 1.66       # given constant
 rho_water = 1000.0          # kg/m^3
 c_water = 4186.0            # J/kg.K
@@ -102,3 +102,4 @@ plt.title('Effective thermal capacity vs PCM temperature')
 plt.grid(True)
 plt.savefig('C_vs_Tpcm.png', dpi=200)
 plt.show()
+
